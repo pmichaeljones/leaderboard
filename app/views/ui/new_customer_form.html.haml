@@ -35,7 +35,7 @@
         .small-4.large-3.column
           %label
             Zip
-            %input.radius(type="text" placeholder="55555" required=true)
+            %input.radius(type="text" placeholder="55555" required=true pattern='^[0-9]*$' maxlength="5")
           %small.error Please enter a zipcode
         %hr
         %legend Contact Information

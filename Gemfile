@@ -15,6 +15,8 @@ gem 'foundation-icons-sass-rails'
 gem 'autoprefixer-rails'
 gem 'turbolinks'
 gem 'jbuilder'
+gem 'devise'
+gem 'cancan'
 
 group :development do
   gem 'thin'
