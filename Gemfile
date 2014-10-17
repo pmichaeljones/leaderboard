@@ -17,6 +17,7 @@ gem 'turbolinks'
 gem 'jbuilder'
 gem 'devise'
 gem 'cancan'
+gem 'newrelic_rpm'
 
 group :development do
   gem 'thin'
