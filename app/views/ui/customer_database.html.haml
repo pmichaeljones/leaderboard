@@ -1,0 +1,46 @@
+.row.show-for-medium-down
+  .small-12.columns
+    %h1.logout-zone Customer Database
+    %select
+      %option(value="" disabled selected)
+        Sory By Last Name:
+      -10.times do
+        %option
+          = "#{Faker::Name.last_name}"
+    -5.times do
+      %ul.pricing-table
+        %li.title= link_to "#{Faker::Name.name}"
+        %li.bullet-item
+          .left Email:
+          = link_to "#{Faker::Internet.email}"
+        %li.bullet-item
+          .left Phone:
+          456-234-2345
+        %li.bullet-item
+          =link_to "Email Client", nil, class: 'tiny button', style:'margin: 2px 5px 2px 5px'
+          =link_to "Update Client Info", nil, class: 'tiny button alert', style:'margin: 2px 5px 2px 5px'
+.row
+  .large-12.columns
+    %table
+      %thead
+        %tr
+          %th(width="200") Customer Name
+          %th Pets
+          %th(width="300") Email
+          %th(width="125") Phone Number
+          %th Contact
+          %th Update
+      %tbody
+        -5.times do
+          %tr
+            %td
+              = link_to "#{Faker::Name.name}"
+            %td
+              = rand(4)
+            %td
+              = link_to "#{Faker::Internet.email}"
+            %td 543-342-6542
+            %td
+              =link_to "Email", nil, class: 'tiny button', style:'margin: 2px 5px 2px 5px'
+            %td
+              =link_to "Update", nil, class: 'tiny button alert', style:'margin: 2px 5px 2px 5px'

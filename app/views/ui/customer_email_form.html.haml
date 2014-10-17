@@ -1,0 +1,19 @@
+%form
+  .row
+    %fieldset
+      %legend Client Email Form
+      .small-12.large-12.column
+        %label
+          Recipient
+          =link_to "[Change]", nil, style: 'font-size: 12px;'
+          %input.radius(type="text" value="Bill Miller [ bill@example.com ]" disabled="true")
+      .small-12.large-12.column
+        %label
+          Subject
+          %input.radius(type="text" placeholder="Email Subject")
+      .small-12.large-12.column
+        %label
+          Email
+          %textarea.radius(type="text" rows="5")
+      .small-12.large-12.column
+        =link_to "Send Email", nil, class: 'button right radius'
