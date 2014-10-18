@@ -49,10 +49,48 @@
   background: white;
 }
 
-.business-info {
+.centered {
+  text-align: center;
+}
+
+.dashboard-green {
+  background: #9abc32;
+  padding: 2px 0px 5px 0px;
+}
+
+.dashboard-orange {
+  background: #ffb752;
+  padding: 2px 0px 5px 0px;
+}
+
+.dashboard-purple {
+  background: #cb6fd7;
+  padding: 2px 0px 5px 0px;
+}
+
+.dashboard-blue {
+  background: #6fb3e0;
+  padding: 2px 0px 5px 0px;
+}
+
+.dashboard-yellow {
+  background: #FEE074;
+  padding: 2px 0px 5px 0px;
+}
+
+.dashboard-icon ~ p {
+  color: black;
+  margin-bottom: 5px;
 }
 
 
+.business-info {
+}
+
+.dashboard-icon {
+  color: black;
+  font-size: 36px;
+}
 /* END OF DASHBOARD STYLING */
 
 .footer-icon {

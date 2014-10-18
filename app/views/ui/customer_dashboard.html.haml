@@ -32,8 +32,35 @@
       What Do You Want to Do?
   %hr
 .row
-  .large-3.columns.dashboard
-    %i.fi-email
-    Hello Workd
-  .large-3.columns.dashboard
-  .large-3.columns.dashboard
+  %ul.large-block-grid-5.small-block-grid-1
+    %li.centered
+      =link_to "#" do
+        .dashboard-green
+          %i.fi-mail.dashboard-icon
+          %br
+          %p Send Email
+    %li.centered
+      =link_to "#" do
+        .dashboard-orange
+          %i.fi-guide-dog.dashboard-icon
+          %br
+          %p Add Pet
+    %li.centered
+      =link_to "#" do
+        .dashboard-purple
+          %i.fi-address-book.dashboard-icon
+          %br
+          %p Add Client
+    %li.centered
+      =link_to "#" do
+        .dashboard-blue
+          %i.fi-clock.dashboard-icon
+          %br
+          %p Set Reminder
+    %li.centered
+      =link_to "#" do
+        .dashboard-yellow
+          %i.fi-lightbulb.dashboard-icon
+          %br
+          %p Request Feature
+
