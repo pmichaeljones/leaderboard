@@ -21,18 +21,23 @@
 
 /* USER DASHBOARD STYLING */
 .dashboard {
-  background: lightgrey;
   height: 150px;
-  /*border: 3px solid black;*/
   padding: 0px 5px;
-  margin-right: 5px;
+  background: #f8f8f8;
+  border: 2px solid #3399ff;
 }
 
-/*.dashboard-end {
+.dashboard-end {
   margin-right: -10px;
-}*/
+}
 
 .dashboard-title {
+  font-size: 36px;
+  font-color: black;
+  text-align: center;
+}
+
+.dashboard-box-title {
   font-size: 20px;
   font-color: black;
   text-align: center;
