@@ -19,6 +19,23 @@
  */
 @import 'foundation-icons';
 
+/* USER DASHBOARD STYLING */
+.dashboard {
+  background: lightgrey;
+  margin: 5px;
+}
+
+.dashboard-title {
+  font-size: 20px;
+  font-color: black;
+  text-align: center;
+  font-weight: 700;
+  border-bottom: 3px solid black;
+}
+
+
+/* END OF DASHBOARD STYLING */
+
 .footer-icon {
   color: white;
   font-size: 48px;
