@@ -21,7 +21,6 @@
 
 /* USER DASHBOARD STYLING */
 .dashboard {
-  height: 150px;
   padding: 0px 5px;
   background: #f8f8f8;
   border: 2px solid #3399ff;
@@ -43,6 +42,10 @@
   text-align: center;
   font-weight: 700;
   border-bottom: 3px solid black;
+}
+
+.white-space {
+  background: white;
 }
 
 
