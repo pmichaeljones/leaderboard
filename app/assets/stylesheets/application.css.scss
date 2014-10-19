@@ -59,35 +59,35 @@
 }
 
 .dashboard-green {
-  border-radius: 5px;
+  border-radius: 3px;
   opacity: .75;
   background: #9abc32;
   padding: 2px 0px 5px 0px;
 }
 
 .dashboard-orange {
-  border-radius: 5px;
+  border-radius: 3px;
   opacity: .75;
   background: #ffb752;
   padding: 2px 0px 5px 0px;
 }
 
 .dashboard-purple {
-  border-radius: 5px;
+  border-radius: 3px;
   opacity: .75;
   background: #cb6fd7;
   padding: 2px 0px 5px 0px;
 }
 
 .dashboard-blue {
-  border-radius: 5px;
+  border-radius: 3px;
   opacity: .75;
   background: #6fb3e0;
   padding: 2px 0px 5px 0px;
 }
 
 .dashboard-yellow {
-  border-radius: 5px;
+  border-radius: 3px;
   opacity: .75;
   background: #FEE074;
   padding: 2px 0px 5px 0px;
@@ -129,6 +129,7 @@
   display: inline-block;
   margin-right: 10px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .red-icon {
