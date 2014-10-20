@@ -144,10 +144,18 @@
 
 /* END OF FEATURE REQUEST STYLING */
 
+.footer-terms > a {
+  color: #fff;
+}
+
+.footer-terms > a:hover {
+  color: #3399ff;
+}
+
 .footer-icon {
   color: white;
   font-size: 48px;
-  opacity: .5;
+  opacity: .75;
   padding: 15px;
 }
 
@@ -246,7 +254,7 @@ li p {
 
 .homepage-footer {
   padding-top: 10px;
-  background-color: #3f454d;
+  background-color: #000;
 }
 
 .footer-logo {

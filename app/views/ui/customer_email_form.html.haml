@@ -2,6 +2,11 @@
   .row
     %fieldset
       %legend Client Email Form
+      .row
+        .large-12.column.panel.callout.radius.centered
+          DoggieDashboard.com takes email SPAM very seriously.
+          %br
+          Please send informational emails only. No marketing or solicitation emails allowed.
       .small-12.large-12.column
         %label
           Recipient
@@ -14,6 +19,6 @@
       .small-12.large-12.column
         %label
           Email
-          %textarea.radius(type="text" rows="5")
+          %textarea.radius(type="text" rows="5" placeholder="Sparky had a great time at our Doggie Daycare today. His grooming appointment will be finished at 5pm today. See you then!")
       .small-12.large-12.column
         =link_to "Send Email", nil, class: 'button right radius'
