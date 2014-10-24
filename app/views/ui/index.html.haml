@@ -1,0 +1,52 @@
+.section
+  .row
+    .small-12.columns
+      %p
+        Becoming a programmer takes a small bit of intelligence and a LOT of persistence. Writing code every single day
+        keeps your brain focused and helps you grasph difficult concepts.
+      %p
+        In order to encourage consistent coding, I've build a leaderboard for TeaLeaf Academy. Input your name and
+        GitHub username and you'll be added to the leaderboard below. The more you commit, the higher up the leaderboard you'll get!
+  .row
+    .small-12.columns
+      %form{"data-abide" => true}
+        %fieldset
+          %legend Leaderboard Submission Form
+          .row
+            .small-4.column
+              %label
+                Name
+                %input(type="text" placeholder="Your Name" class='radius' required=true)
+                %small.error Put your name please!
+            .small-4.column
+              %label
+                GitHub Username
+                %input(type="text" id="ghusername" placeholder="GitHub Username" class='radius' required=true)
+            .small-4.column
+              %label
+                GitHub Username Confirmation
+                %input(type="text" placeholder="GitHub Username" class='radius' required=true data-equalto="ghusername")
+                %small.error Usernames must match
+          .small-12.column.centered
+            = submit_tag "Join the Leaderboard!", class: 'button login-button'
+  .row
+    .small-12.columns
+      %table
+        %thead
+          %tr
+            %th Name
+            %th GitHub Username
+            %th Yearly Contributions
+            %th Current Streak
+        %tbody
+          %tr
+            %td Patrick Jones
+            %td pmichaeljones
+            %td 744 Total
+            %td 20 Days
+  .row
+    .small-12.columns.centered
+      %p
+        This site was built using TDD by TeaLeaf Academy student
+        =link_to "Patrick Jones", "http://pmichaeljones.herokuapp.com"
+

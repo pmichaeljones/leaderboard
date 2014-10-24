@@ -20,6 +20,11 @@
 @import 'foundation-icons';
 
 /* USER DASHBOARD STYLING */
+
+.top-bar .title-area {
+  float: none;
+}
+
 .dashboard {
   padding: 0px 5px;
   background: #f8f8f8;
@@ -120,7 +125,9 @@
   padding: 10px 20px;
   background: orange;
   letter-spacing: 2px;
-  border-radius: 3px;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px !important;
 }
 
 /* START FEATURE REQUEST STYLING */
@@ -329,4 +336,8 @@ body {
 .logo-icon {
   margin-left: -5px;
   margin-right: -5px;
+}
+
+table {
+  width: 100%;
 }

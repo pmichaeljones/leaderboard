@@ -1,53 +1,26 @@
 .contain-to-grid
   .row.show-for-medium-down.bottom-border
-    .small-10.columns
+    .small-12.columns
       %span.logo-first-word
-        Doggie
-      %span.logo-last-word
-        Dashboard
-    .small-2.columns.logout-zone
-      =link_to "Logout", nil, class: 'tiny button radius mobile-transparent'
-  .icon-bar.four-up.show-for-medium-down
-    %a(class="item")
-      %i.fi-home.medium-icon
-      %label Home
-    %a(class="item")
-      %i.fi-mail.medium-icon
-      %label Email
-    %a(class="item")
-      %i.fi-guide-dog.medium-icon
-      %label + Pet
-    %a(class="item")
-      %i.fi-address-book.medium-icon
-      %label + Client
-  %nav.top-bar.collapse.show-for-large-up(role="navigation")
+        TeaLeaf Leaderboard
+  %nav.top-bar.collapse.show-for-large-up.centered(role="navigation")
     %ul.title-area
       %li.name
         =link_to "" do
           %span.logo-first-word
-            Doggie
-          %span.logo-last-word
-            Dashboard
-      %li.toggle-topbar.menu-icon
-        %span Menu Stuff
-    %section.top-bar-section
-      %ul.right
-        %li.divider
-        %li.has-form
-          %a(class= "button" href="#")
-            New Pet +
-        %li.divider
-        %li.has-form
-          %a(class= "button" href="#")
-            New Customer +
-        %li.divider
-        %li= link_to "Scheduling"
-        %li.divider
-        %li= link_to "Customers"
-        %li.divider
-        %li.has-dropdown.not-click
-          = link_to "Welcome, Mary"
-          %ul.dropdown
-            %li= link_to "Account"
-            %li= link_to "Settings"
-            %li= link_to "Log Out"
+            TeaLeaf Academy Coding Leaderboard
+    /   %li.toggle-topbar.menu-icon
+    /     %span Menu Stuff
+    / %section.top-bar-section
+    /   %ul.right
+    /     %li.divider
+    /     %li= link_to "Scheduling"
+    /     %li.divider
+    /     %li= link_to "Customers"
+    /     %li.divider
+    /     %li.has-dropdown.not-click
+    /       = link_to "Welcome, Mary"
+    /       %ul.dropdown
+    /         %li= link_to "Account"
+    /         %li= link_to "Settings"
+    /         %li= link_to "Log Out"
