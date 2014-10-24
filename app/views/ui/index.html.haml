@@ -18,7 +18,7 @@
     .row
     .small-12.columns.centered
       %p
-        This site was built using TDD by TeaLeaf Academy student
+        This site was built using TDD best-practices by TeaLeaf Academy student
         =link_to "Patrick Jones", "http://pmichaeljones.herokuapp.com"
   %hr
   .row
@@ -27,24 +27,22 @@
         %fieldset
           %legend Leaderboard Submission Form
           .row
-            .small-4.column
+            .small-12.large-4.column
               %label
                 Name
                 %input(type="text" placeholder="Your Name" class='radius' required=true)
                 %small.error Put your name please!
-            .small-4.column
+            .small-12.large-4.column
               %label
                 GitHub Username
                 %input(type="text" id="ghusername" placeholder="GitHub Username" class='radius' required=true)
-            .small-4.column
+            .small-12.large-4.column
               %label
                 GitHub Username Confirmation
                 %input(type="text" placeholder="GitHub Username" class='radius' required=true data-equalto="ghusername")
                 %small.error Usernames must match
           .small-12.column.centered
             = submit_tag "Join the Leaderboard!", class: 'button login-button'
-            %span
-              |
             = submit_tag "Refresh Leaderboard!", class: 'button login-button light-blue'
   .row
     .small-12.columns

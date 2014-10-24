@@ -14,9 +14,6 @@
     %section.content.clearfix
       = render 'shared/messages'
       = yield
-    .homepage-footer
-      .row.homepage-row
-        .small-12.column
-          %span.logo-first-word
-            Tealeaf Leaderboard
+    %footer
+      = render 'shared/footer'
     = javascript_include_tag "application"
